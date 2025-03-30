@@ -8,8 +8,7 @@
     "@connectrpc/connect-web": "^2.0.2"
   },
   "devDependencies": {
-    "@bufbuild/protoc-gen-connect-es": "^0.13.0",
-    "@bufbuild/protoc-gen-es": "^1.10.0"
+    "@bufbuild/protoc-gen-es": "^2.2.2"
   },
   "repository": {
     "type": "git",

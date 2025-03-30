@@ -1,4 +1,5 @@
 version: v2
+clean: true
 plugins:
   # golang
   - local: protoc-gen-go
@@ -11,10 +12,6 @@ plugins:
       - paths=source_relative
   # typescript
   - local: protoc-gen-es
-    out: gen/ts
-    opt:
-      - target=ts
-  - local: protoc-gen-connect-es
     out: gen/ts
     opt:
       - target=ts

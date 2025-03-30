@@ -1,0 +1,10 @@
+syntax = "proto3";
+package widget.v1;
+
+option go_package = "github.com/ijkcode/volumixer-api/gen/go/widget/v1;widgetv1";
+
+message VolumeComponent {
+  float level = 1;
+  bool muted = 2;
+}
+
