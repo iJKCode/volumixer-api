@@ -1,0 +1,24 @@
+{
+  "name": "volumixer-api",
+  "version": "0.1.0",
+  "description": "volumixer api definitions",
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.2.5",
+    "@connectrpc/connect": "^2.0.2",
+    "@connectrpc/connect-web": "^2.0.2"
+  },
+  "devDependencies": {
+    "@bufbuild/protoc-gen-connect-es": "^0.13.0",
+    "@bufbuild/protoc-gen-es": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijkcode/volumixer-api.git"
+  },
+  "keywords": [
+    "volumixer",
+    "protobuf"
+  ],
+  "author": "Jens Kusters (https://github.com/ijkcode)",
+  "license": "MIT"
+}
