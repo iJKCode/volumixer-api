@@ -8,4 +8,4 @@ proto:
 .PHONY: install
 install:
 	go mod download
-	npm install --only=dev
+	npm install

@@ -1,0 +1,23 @@
+syntax = "proto3";
+package command.v1;
+
+option go_package = "github.com/ijkcode/volumixer-api/gen/go/command/v1;commandv1";
+
+service VolumeService {
+  rpc SetVolumeLevel(SetVolumeLevelRequest) returns (SetVolumeLevelResponse);
+  rpc SetVolumeMute(SetVolumeMuteRequest) returns (SetVolumeMuteResponse);
+}
+
+message SetVolumeLevelRequest {
+  string entity_id = 1;
+  float level = 2;
+}
+
+message SetVolumeLevelResponse {}
+
+message SetVolumeMuteRequest {
+  string entity_id = 1;
+  bool mute = 2;
+}
+
+message SetVolumeMuteResponse {}
